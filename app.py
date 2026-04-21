@@ -60,4 +60,4 @@ if st.button("🔍 推荐配比", type="primary"):
         st.dataframe(cand_df, use_container_width=True)
 
 st.markdown("---")
-st.caption("模型基于随机森林，训练数据涵盖总浓度4~14%，温度20~30℃，湿度30~70%。")
+st.caption("模型基于随机森林，训练数据涵盖总浓度4-14%，温度20-30℃，湿度30-70%。")
